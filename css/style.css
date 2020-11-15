@@ -293,7 +293,7 @@ p {
 #home-heroimage{
   background-image: url("../img/index-heroimage.png");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   background-size: cover;
   min-height: 700px;
@@ -449,12 +449,19 @@ p {
 
 #brands #checkoutbtn{
   background-color: #FFA39E;
-  font-weight: 400;
-  /*line-height: 2rem;*/
   font-family: var(--OpenSans);
   font-size: 18px;
   margin:auto;
   color: white;
+  padding: 10px 25px 10px 25px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 0;
+  -webkit-box-shadow: 7px 9px 17px -17px rgba(0,0,0,1);
+  -moz-box-shadow: 7px 9px 17px -17px rgba(0,0,0,1);
+  box-shadow: 7px 9px 17px -17px rgba(0,0,0,1);
+  letter-spacing: 0.2rem;
 }
 
 #brands .brand-carousel {
@@ -589,7 +596,147 @@ background-color: #000 !important;
 
 /*ABOUT PAGE=================================*/
 #aboutheader{
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  color: white;
+  background-color:#4D504A;
+  min-height: 600px;
+}
+
+#aboutheader h1 {
+    font-family: var(--PlayfairDisplay);
+  line-height: 1;
+  text-align: left;
+}
+
+#aboutheader #headertext {
+  padding-top: 70px;
+}
+
+#together{
+background: #fffcfc; /* Old browsers */
+background: -moz-linear-gradient(top, #fffcfc 30%, #f2f3f0 30%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #fffcfc 30%,#f2f3f0 30%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #fffcfc 30%,#f2f3f0 30%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffcfc', endColorstr='#f2f3f0',GradientType=0 ); /* IE6-9 */
+
+  /*padding-top: 2rem; */
+}
+#together #captiontop{
+  font-weight: 700;
+  line-height: 4.5rem;
+  margin-bottom: 0.5rem;
+  font-family: var(--PlayfairDisplay);
+}
+#together #captionbtm{
+  line-height: 150%;
+  font-weight: bold;
+  font-family: var(--OpenSans);
+  /*padding-bottom: 0.8rem;*/
+}
+
+#whorwe{
+  background-color: #FFA39E;
+}
+#whorwe h2{
+  line-height: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'Playfair Display', serif;
+}
+
+#whorwe img{
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+
+#whorwe h5 {
+  font-family: var(--PlayfairDisplay);
   
+}
+#workwithus{
+  background-color: white;
+}
+#workwithus h2{
+  line-height: 120%;
+  text-align: left;
+  font-family: var(--PlayfairDisplay);
+  padding-bottom: 30px;
+}
+
+#workwithus #caption{
+  padding-top: 30%;
+  padding-left:20%;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  line-height: 2.5rem;
+  margin-bottom: 2rem;
+  font-family: 'Open Sans', serif;
+}
+
+#workwithus  {
+  padding-top:10%;
+  padding-left: 1.5rem;
+  font-weight: bolder;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 2rem;
+  font-family: 'open Sans', serif;
+}
+#workwithus p {
+  
+  font-size: 1rem;
+  line-height: 150%;
+  font-family: 'open Sans', serif;
+}
+
+#workwithus #questiontext {
+  font-family: var(--OpenSans);
+}
+#workwithus #callbtn{
+  padding-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 20px 20px 20px 20px;
+    background-color: #5c7669;
+    color: #ffffff;
+    font-weight: bolder;
+    text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 2;
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+#aboutReview {
+  background-color: var(--lightgrey);
+}
+
+#aboutReview h5{
+  color:#FFA39E;
+  line-height: 150%;
+}
+#aboutReview p{
+  color:black;
+    line-height: 180%;
+}
+
+#aboutReview img{
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+}
+#aboutReview #callbtn{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 20px 10px 20px;
+    background-color: #FFA39E;
+    color: #ffffff;
+    font-weight: bolder;
+    text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 0;
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
 /*END OF ABOUT PAGE=================================*/
@@ -604,6 +751,78 @@ background-color: #000 !important;
 }
 
 #portfolio{
+  background-color: white;
+}
+
+#portfolio .halfheight {
+  height: 200px;
+  overflow: hidden;
+  padding: 0;
+  /*padding-right: 5px;*/
+  /*padding-bottom: 5px;*/
+}
+
+#portfolio .fullheight {
+  height: 200px;
+  overflow: hidden;
+  padding: 0;
+  /*padding-right: 5px;*/
+  /*padding-bottom: 5px;*/
+}
+
+#portfolio .fullheight2 {
+  height: 400px;
+  width: auto;
+  margin-right: 0;
+  overflow: hidden;
+  padding: 0;
+    /*padding-right: 5px;*/
+  /*padding-bottom: 5px;*/
+}
+#portfolio .col-md-6 {
+  padding: 0;
+  margin: 0;
+}
+
+#portfolio img{
+  object-fit: cover;
+  object-position: 50% 50%;
+  width: 100%;
+  border: 5px solid;
+  border-color: white;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.overlay {
+  transition: .5s ease;
+  opacity: 0.01;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+/*background-color: rgba(0,0,0,0.23);*/
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.fullheight:hover img, .halfheight:hover img, .fullheight2:hover img {
+  opacity: 0.3;
+}
+
+.fullheight:hover .overlay, .halfheight:hover .overlay, .fullheight2:hover .overlay {
+  opacity: 1;
+}
+
+#portfolio .portfolioimg:hover{
+      transform: scale(1.01);
+}
+
+
+/*#portfolio{
   background-color: white;
 }
 
@@ -635,7 +854,7 @@ background-color: #000 !important;
 
 .portfolioimg:hover{
       transform: scale(1.01);
-}
+}*/
 
 #portfolio h4{ 
   font-family: var(--OpenSans);
@@ -644,13 +863,21 @@ background-color: #000 !important;
 }
 
 #portfolio .viewbtn{
-  background-color: var(--pink);
-  padding: 10px 20px;
-  text-transform: uppercase;
-  font-weight: 600;
+  background-color: #FFA39E;
   font-family: var(--OpenSans);
+  font-size: 18px;
+  margin:auto;
   color: white;
+  padding: 10px 25px 10px 25px;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 0;
+  -webkit-box-shadow: 7px 9px 17px -17px rgba(0,0,0,1);
+  -moz-box-shadow: 7px 9px 17px -17px rgba(0,0,0,1);
+  box-shadow: 7px 9px 17px -17px rgba(0,0,0,1);
   letter-spacing: 0.2rem;
+  font-size: 16px;
 }
 .overlaygrey {
   background-color: var(--darkgrey);
@@ -919,15 +1146,22 @@ background-color: #000 !important;
 }
 
 #threeways-brand .contentbox {
-  height: 250px;
+  height: 350px;
+}
+
+#threeways-email .contentbox {
+  height: 530px;
 }
 
 #threeways-website .contentbox {
-  height: 330px;
+  height: 450px;
 }
 
-#threeways-website .contentbox {
-  height: 280px;
+#threeways-content .contentbox {
+  height: 450px;
+}
+#threeways-landing .contentbox {
+  height: 390px;
 }
 
 #businesscovered{
@@ -982,6 +1216,8 @@ background-color: #000 !important;
 
 #clickrates .clickratesimg{
   object-fit: cover;
+  width: 80%;
+  height: auto;
 }
 
 #procedure1 {
