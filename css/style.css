@@ -291,7 +291,7 @@ p {
 /*HOME PAGE=================================*/
 /*HERO IMAGE*/
 #home-heroimage{
-  background-image: url("../img/index-heroimage.png");
+  background-image: url("../img/index-heroimage.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -898,7 +898,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffcfc', end
   min-height: 900px;
   height: 100%;
   width: 100%;
-  background-image: url("../img/service-heroimage.jpg");
+  background-image: url("../img/service-landing-header.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -1394,7 +1394,7 @@ text-align: right;
     float: left;
     border-radius: 4px;
     background-color: #ffffff;
-    background-image: url('../img/furama2.png'); 
+    background-image: url('../img/cs-furama.png'); 
     background-size: 120%; 
     background-repeat: no-repeat; 
     background-position: 50%;
@@ -1533,7 +1533,7 @@ box-shadow: 7px 9px 17px -17px rgba(0,0,0,1);
   text-align: left;
   color: black;
   /*padding: 0;*/
-  background-image: url("../img/contact_header.jpg");
+  background-image: url("../img/contact-page-header.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
